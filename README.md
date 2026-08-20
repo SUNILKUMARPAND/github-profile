@@ -7,10 +7,13 @@ The main goal of this project is to provide a simple and user-friendly interface
 Features
 
    🔍 Search GitHub Users
+   
          Users can search for any GitHub profile by entering a valid GitHub username.
          
    👤 Profile Information
+   
         Displays important profile details such as:
+        
           1. Profile picture
           2. Username
           3. Full name
@@ -20,6 +23,7 @@ Features
           7. GitHub profile URL
           
     📊 GitHub Statistics
+    
           1. Displays useful GitHub statistics including:
           2. Public repositories
           3. Followers
@@ -27,18 +31,23 @@ Features
           5. Public gists
           
     📁 Repository Information
+    
           Fetches and displays information about the user's GitHub repositories.
           
     🔗 GitHub Profile Link
+    
           Provides a direct link to the user's GitHub profile.
           
     ⏳ Loading State
+    
           Displays a loading indicator while profile information is being fetched from the API.
 
     ❌ Error Handling
+    
           Shows an appropriate message when the username does not exist or the API request fails.
           
     📱 Responsive Design
+    
           The application is designed to work across desktop, tablet, and mobile screen sizes.
 
           
