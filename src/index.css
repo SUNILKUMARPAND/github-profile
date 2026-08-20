@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to left, #ccff33, #99ffee);
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+}
+
+.search {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #24292e;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.error {
+  color: red;
+}
+
+.card {
+  background: #88cc99;
+  width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #0366d6;
+  font-weight: bold;
+}
